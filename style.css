@@ -1,0 +1,115 @@
+.header{
+    text-align: center;
+    margin: 20px;
+}
+.btn:hover {
+    font-weight: bold;
+}
+
+.picture {
+    height: 170px;
+    width: 200px;
+    margin: auto;
+    padding-left: 20px;
+}
+.card .pic{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.fa-whatsapp {
+    background: #4ac959;
+    color: white;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56%;
+    height: 0;
+}
+.image-container img{
+    position: absolute;
+    margin-top: 20px;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56%;
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 70%;
+    height: 90%;
+}
+.video {
+    padding-left: 20px;
+    margin: auto;
+}
+
+.row {
+    margin: 7px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.column p{
+    background-color: black;
+    color: white;
+}
+
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    /* padding: 15px; */
+}
+
+.column p {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.address{
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .column1 {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
