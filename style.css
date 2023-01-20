@@ -73,6 +73,9 @@
     border: 1px solid black;
     padding: 1rem;
 }
+.card.bg-white {
+    border: 0px solid black;
+}
 /* Clear floats after the columns */
 .row:after {
     content: "";
