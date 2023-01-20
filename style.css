@@ -16,6 +16,9 @@
     padding-left: 20px;
     text-align: center;
 }
+.card-body{
+    text-align: center;
+}
 .fa-whatsapp {
     background: #4ac959;
     color: white;
